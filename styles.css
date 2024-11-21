@@ -1,8 +1,8 @@
-html, body {
+body {
     height: 100%;
     margin: 0; /* Removes any default margin */
     background-color: #92a8d1;
-    color: white; /* Ensures text is readable on black */
+    color: rgb(0, 0, 255); /* Ensures text is readable on black */
 }
 
 .h1{
@@ -11,4 +11,29 @@ html, body {
 
 .myButton{
     color: green;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #333; /* Dark background color */
+    overflow: hidden; /* To ensure items are aligned properly */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the navigation items */
+}
+
+.navbar ul li {
+    display: inline-block; /* Display list items horizontally */
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 14px 20px; /* Space inside the navbar items */
+    text-decoration: none; /* Remove underline */
+    color: white; /* Text color */
+    font-size: 18px;
 }
