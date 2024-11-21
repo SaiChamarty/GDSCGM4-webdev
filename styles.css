@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+    margin: 0; /* Removes any default margin */
+    background-color: #92a8d1;
+    color: white; /* Ensures text is readable on black */
+}
+
+.h1{
+    color: aqua;
+}
+
+.myButton{
+    color: green;
+}
